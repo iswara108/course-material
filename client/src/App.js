@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Impress, Step } from 'react-impressjs'
-import 'react-impressjs/styles/react-impressjs.css'
+import React from 'react';
+import styled from 'styled-components';
+import { Impress, Step } from 'react-impressjs';
+import 'react-impressjs/styles/react-impressjs.css';
 
 const StyledStep = styled(Step)`
   transition: font-weight 3.5s ease;
@@ -9,7 +9,7 @@ const StyledStep = styled(Step)`
   &.active {
     font-weight: 700;
   }
-`
+`;
 
 export default function App() {
   return (
@@ -26,7 +26,7 @@ export default function App() {
         data={{
           x: 1800,
           y: -500,
-          scale: 3
+          scale: 3,
         }}
       >
         Dhyāna Ślokaḥ
@@ -85,9 +85,9 @@ export default function App() {
         data={{
           x: 1000,
           y: 500,
-          scale: 4
+          scale: 4,
         }}
       />
     </Impress>
-  )
+  );
 }
